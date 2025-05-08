@@ -5,6 +5,12 @@ class Caupain < Formula
   sha256 "66c590f573dca5ce2a5451b850165f89717622436d2836b0cb23fbaecb163a5f"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/deezer/homebrew-repo/releases/download/caupain-0.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "179082a3e7c63849cc8d3338ba92fbee11d2afe4f5efb225826bc2d095a33364"
+    sha256 cellar: :any_skip_relocation, ventura:       "857e71bbedd51bf520acd75b278ca217e548213830d1d38965aaf74a70ddd7e3"
+  end
+
   depends_on "openjdk@17" => :build
 
   def install
