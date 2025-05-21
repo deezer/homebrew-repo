@@ -1,0 +1,98 @@
+{
+  "name": "caupain",
+  "full_name": "caupain",
+  "tap": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Your best buddy for keeping versions catalogs up to date!",
+  "license": "MIT",
+  "homepage": "https://github.com/deezer/caupain",
+  "versions": {
+    "stable": "1.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/deezer/caupain/archive/refs/tags/v1.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "71fb2d75a6160c69e604704a8d0835c0fc1ef0f17c89aa930ceff58fdf7593b4"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.1.0",
+      "files": {
+        "arm64_sequoia": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.1.0/caupain-1.1.0.arm64_sequoia.bottle.tar.gz",
+          "sha256": "103457832ea5bfe2977f35f5fcc62acc5819de4c0151cb3570fb6331134f3568"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.1.0/caupain-1.1.0.ventura.bottle.tar.gz",
+          "sha256": "3ec56058a8d8412e31b53a4722b43b5e872337921108e5a3f4113b3440cbfdda"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "openjdk@17"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [
+    {
+      "version": "1.0.1",
+      "used_options": [],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1747301982,
+      "runtime_dependencies": [],
+      "installed_as_dependency": false,
+      "installed_on_request": true
+    }
+  ],
+  "linked_keg": "1.0.1",
+  "pinned": false,
+  "outdated": true,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": null,
+  "ruby_source_path": null,
+  "ruby_source_checksum": {
+    "sha256": "13b6d13bb3f556ab7607347e1004cabbd0e6bd9557502a3d505e6d1c1531c554"
+  }
+}
