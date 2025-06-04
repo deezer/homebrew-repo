@@ -1,7 +1,7 @@
 {
   "name": "caupain",
-  "full_name": "deezer/repo/caupain",
-  "tap": "deezer/repo",
+  "full_name": "caupain",
+  "tap": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
@@ -9,17 +9,17 @@
   "license": "MIT",
   "homepage": "https://github.com/deezer/caupain",
   "versions": {
-    "stable": "1.1.1",
+    "stable": "1.2.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/deezer/caupain/archive/refs/tags/v1.1.1.tar.gz",
+      "url": "https://github.com/deezer/caupain/archive/refs/tags/v1.2.0.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "5693e7c3842d86a0db3dab4609458886499a1f22ddc14a181c4bb7e07c64bc21"
+      "checksum": "32a7c7f994841549c4c27dc89b3ff7cd6307423d0cd16ef7f33276e36335b9c9"
     }
   },
   "revision": 0,
@@ -30,17 +30,17 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.1.1",
+      "root_url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.2.0",
       "files": {
         "arm64_sequoia": {
           "cellar": ":any_skip_relocation",
-          "url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.1.1/caupain-1.1.1.arm64_sequoia.bottle.tar.gz",
-          "sha256": "78cf5f3810b8e3960ee644a0f6e5e64d3fd53e6c6a7c978a7ae09b8ce88635ca"
+          "url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.2.0/caupain-1.2.0.arm64_sequoia.bottle.tar.gz",
+          "sha256": "12906b1c23a37ab788bff6776aa146935d34c1fc10955462b5c8fc01870384d6"
         },
         "ventura": {
           "cellar": ":any_skip_relocation",
-          "url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.1.1/caupain-1.1.1.ventura.bottle.tar.gz",
-          "sha256": "e2c9dc7605eae139e77eb5ed988e1d2297084338ce981af369e85873ea9b97e5"
+          "url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.2.0/caupain-1.2.0.ventura.bottle.tar.gz",
+          "sha256": "d5380c20332c17f5502f0c72c26cc0c0fa89757b3f52d4cd2d35a836687157ce"
         }
       }
     }
@@ -63,21 +63,10 @@
   "conflicts_with_reasons": [],
   "link_overwrite": [],
   "caveats": null,
-  "installed": [
-    {
-      "version": "1.1.0",
-      "used_options": [],
-      "built_as_bottle": true,
-      "poured_from_bottle": true,
-      "time": 1748001930,
-      "runtime_dependencies": [],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
-  ],
-  "linked_keg": "1.1.0",
+  "installed": [],
+  "linked_keg": null,
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -90,9 +79,9 @@
   "disable_replacement_cask": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d4d89095f83f4e6da5d34b0bcf3fa5c961e074c1",
-  "ruby_source_path": "Formula/caupain.rb",
+  "tap_git_head": null,
+  "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "395b7bc1c7992ab3a192bdd74b68dd5f4d1618e65ab71797aac2701fddadae79"
+    "sha256": "d800e02d661cf0ea47b53f4086273e99e60020a9133db031e2eff2acddbaddf3"
   }
 }
