@@ -9,17 +9,17 @@
   "license": "MIT",
   "homepage": "https://github.com/deezer/caupain",
   "versions": {
-    "stable": "1.4.0",
+    "stable": "1.4.1",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/deezer/caupain/archive/refs/tags/v1.4.0.tar.gz",
+      "url": "https://github.com/deezer/caupain/archive/refs/tags/v1.4.1.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "fea29913eaea9e44196546dcbc1e43ee3ad73c00c2bfbdcb534779886c85f42d"
+      "checksum": "bed91b8af94c049cbc033e104b878d85c0179ff9154bc93a2c05a9c6d3067ad1"
     }
   },
   "revision": 0,
@@ -30,17 +30,17 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.4.0",
+      "root_url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.4.1",
       "files": {
         "arm64_sequoia": {
           "cellar": ":any_skip_relocation",
-          "url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.4.0/caupain-1.4.0.arm64_sequoia.bottle.tar.gz",
-          "sha256": "ea3f7c63b2b7472decbea4b1452167d33e91cbd550423ec526c9c9452094ff7a"
+          "url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.4.1/caupain-1.4.1.arm64_sequoia.bottle.tar.gz",
+          "sha256": "b5408b8a23b50c450e78bb77caceb4473267d37c6c0f22dff558ab76923e0700"
         },
         "ventura": {
           "cellar": ":any_skip_relocation",
-          "url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.4.0/caupain-1.4.0.ventura.bottle.tar.gz",
-          "sha256": "0862cb987b166f9419bba37c2f2540770a6f6d4c60d88c65912d15d5a02ddefe"
+          "url": "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.4.1/caupain-1.4.1.ventura.bottle.tar.gz",
+          "sha256": "e9f6c8c51650271b900542a287f990f5fa6098ac3c0d98e28c6b7a75fe1d3986"
         }
       }
     }
@@ -82,6 +82,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "a8c94d5338110c59316b8efff8b5f99c971fc14b607714a06424220ea3941433"
+    "sha256": "64a49cd27076431d48cba4725360fdad4ef5de3fff6490d3c4251c7a82055c94"
   }
 }
