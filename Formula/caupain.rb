@@ -1,8 +1,8 @@
 class Caupain < Formula
   desc "Your best buddy for keeping versions catalogs up to date!"
   homepage "https://github.com/deezer/caupain"
-  url "https://github.com/deezer/caupain/archive/refs/tags/v1.6.0.tar.gz"
-  sha256 "7c5e76d0ab668d12ff5888baa102c97ceef9e91a56b8747010e475ed72761040"
+  url "https://github.com/deezer/caupain/archive/refs/tags/v1.6.1.tar.gz"
+  sha256 "aa65e630999d6974e443b0e95b347c3730a942021bdc82c50350f12f82bde235"
   license "MIT"
 
   bottle do
