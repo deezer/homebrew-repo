@@ -1,8 +1,8 @@
 class Caupain < Formula
   desc "Your best buddy for keeping versions catalogs up to date!"
   homepage "https://github.com/deezer/caupain"
-  url "https://github.com/deezer/caupain/archive/refs/tags/v1.6.1.tar.gz"
-  sha256 "7c5e76d0ab668d12ff5888baa102c97ceef9e91a56b8747010e475ed72761040"
+  url "https://github.com/deezer/caupain/archive/refs/tags/v1.7.0.tar.gz"
+  sha256 "699f0daee34de2832a5d279451d99a12ca33b8c8c3977244f7259f0ad14fca53"
   license "MIT"
 
   bottle do
@@ -11,7 +11,7 @@ class Caupain < Formula
     sha256 cellar: :any_skip_relocation, arm64_tahoe:   "f4bc1825374b01d65456a575d54620e75e8bade2b3e7b9dd4b9080b2c97642a3"
   end
 
-  depends_on "openjdk@17" => :build
+  depends_on "openjdk" => :build
 
   def install
     ENV["GRADLE_OPTS"] = '-Dorg.gradle.configureondemand=true \
