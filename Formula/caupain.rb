@@ -6,9 +6,9 @@ class Caupain < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.6.1"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "4ad710624d4c83c49ef22eaff558e29215abbe916b8adea5af7f665b495eefe7"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "f4bc1825374b01d65456a575d54620e75e8bade2b3e7b9dd4b9080b2c97642a3"
+    root_url "https://github.com/deezer/homebrew-repo/releases/download/caupain-1.7.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "de8f4288c7e51a3884e248be2df02218351de756072886986c4537e246598a2b"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "ab7c4ca15d2525f8dc1121f11b7952610b664f3c2ca9abfb98a56f7d56aa2c24"
   end
 
   depends_on "openjdk" => :build
