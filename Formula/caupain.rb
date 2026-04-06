@@ -20,19 +20,9 @@ class Caupain < Formula
     -Dorg.gradle.project.kotlin.native.disableCompilerDaemon=true \
     -Dorg.gradle.jvmargs="-Xmx12g \
     -Dfile.encoding=UTF-8"'
-    task =
-      if Hardware::CPU.arm?
-        ":cli:macosArm64Binaries"
-      else
-        ":cli:macosX64Binaries"
-      end
+    task = ":cli:linuxX64Binaries"
     system "./gradlew", task, "--no-configuration-cache"
-    folder =
-      if Hardware::CPU.arm?
-        "macosArm64"
-      else
-        "macosX64"
-      end
+    folder = "linuxX64"
     bin.install "cli/build/bin/#{folder}/releaseExecutable/caupain.kexe" => "caupain"
     bash_completion.install "cli/completions/bash-completion.sh" => "caupain"
     fish_completion.install "cli/completions/fish-completion.sh"

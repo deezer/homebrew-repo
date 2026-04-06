@@ -1,17 +1,12 @@
 name: brew test-bot
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
 
 jobs:
   test-bot:
-    strategy:
-      matrix:
-        os: [macos-15, macos-26]
-    runs-on: ${{ matrix.os }}
+    if: startsWith(github.head_ref, 'test-linux')
+    runs-on: ubuntu-latest
     steps:
       - name: Set up Homebrew
         id: set-up-homebrew
@@ -21,8 +16,8 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ steps.set-up-homebrew.outputs.gems-path }}
-          key: ${{ matrix.os }}-rubygems-${{ steps.set-up-homebrew.outputs.gems-hash }}
-          restore-keys: ${{ matrix.os }}-rubygems-
+          key: ubuntu-latest-rubygems-${{ steps.set-up-homebrew.outputs.gems-hash }}
+          restore-keys: ubuntu-latest-rubygems-
 
       - run: brew test-bot --only-cleanup-before
 
@@ -37,5 +32,5 @@ jobs:
         if: always() && github.event_name == 'pull_request'
         uses: actions/upload-artifact@v4
         with:
-          name: bottles_${{ matrix.os }}
+          name: bottles_ubuntu-latest
           path: '*.bottle.*'
